@@ -1,0 +1,261 @@
+*{
+    background: #F3F5FC;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+#mensaje{
+border: none;
+width: 500px;
+height: 400px;
+left: 1000px;
+top: 126px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+text-transform: lowercase;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+}
+::placeholder{
+    color:#0A3871;
+}
+#mensaje:focus{
+    outline: none;
+}
+
+#informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 500px;
+    height: 10px;
+    left: 10px;
+    top: 10px;
+
+    /* Solo letras minúsculas y sin acentos */
+
+    width: 500px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+
+}
+
+#botones{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 680px;
+height: 67px;
+left: 240px;
+top: 885px;
+
+
+}
+
+
+#btnEncriptar{
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px;
+gap: 8px;
+
+width: 228px;
+height: 67px;
+
+/* Light gray */
+
+background: #0A3871;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #D8DFE8;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #D8DFE8;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+#btnEncriptar:focus{
+    cursor: pointer;
+}
+
+#btnDesencriptar{
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px;
+gap: 8px;
+
+width: 228px;
+height: 67px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+#btnDesencriptar:focus{
+    cursor: pointer;
+}
+
+#resultado{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 900px;
+top: 100px;
+/* White */
+
+background: #FFFFFF;
+background-image:url(imagenes/Muñeco.png);
+background-repeat: no-repeat;
+background-position: center;
+border: none;
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+#resultado:focus{
+outline: none;
+}
+
+#copiar{
+    box-sizing: border-box;
+
+    position: absolute;
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 25px;
+gap: 8px;
+
+width: 236px;
+height: 67px;
+left: 1000px;
+top: 550px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+#copiar:focus{
+    cursor:pointer;
+}
